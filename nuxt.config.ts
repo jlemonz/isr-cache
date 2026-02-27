@@ -4,26 +4,7 @@ export default defineNuxtConfig({
   routeRules: {
     "/": { isr: 60 },
   },
-  modules: [
-    "@nuxtjs/seo",
-    "@nuxt/image",
-    "@nuxt/ui",
-    "@nuxt/content",
-    // "@nuxtjs/supabase",
-    "nuxt-security",
-    "@nuxt/scripts",
-  ],
-  nitro: {
-    externals: {
-      inline: ["unhead", "@unhead/vue"],
-    },
-  },
-  // supabase: {
-  //   redirect: false,
-  // },
-  ui: {
-    colorMode: false,
-  },
+  modules: ["@nuxt/content", "nuxt-security"],
   security: {
     headers: {
       contentSecurityPolicy: {
