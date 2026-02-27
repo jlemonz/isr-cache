@@ -8,7 +8,7 @@ export default defineNuxtConfig({
     "@nuxtjs/seo",
     "@nuxt/image",
     "@nuxt/ui",
-    "@nuxt/content",
+    // "@nuxt/content",
     // "@nuxtjs/supabase",
     "nuxt-security",
     "@nuxt/scripts",
