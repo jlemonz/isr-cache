@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   routeRules: {
     "/": { isr: 60 },
   },
-  modules: ["@nuxt/content"],
+  modules: ["@nuxt/content", "nuxt-security"],
   security: {
     headers: {
       contentSecurityPolicy: {
