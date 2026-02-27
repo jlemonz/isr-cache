@@ -9,7 +9,7 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "@nuxt/ui",
     "@nuxt/content",
-    "@nuxtjs/supabase",
+    // "@nuxtjs/supabase",
     "nuxt-security",
     "@nuxt/scripts",
   ],
@@ -18,9 +18,9 @@ export default defineNuxtConfig({
       inline: ["unhead", "@unhead/vue"],
     },
   },
-  supabase: {
-    redirect: false,
-  },
+  // supabase: {
+  //   redirect: false,
+  // },
   ui: {
     colorMode: false,
   },
