@@ -13,6 +13,11 @@ export default defineNuxtConfig({
     "nuxt-security",
     "@nuxt/scripts",
   ],
+  nitro: {
+    externals: {
+      inline: ["unhead", "@unhead/vue"],
+    },
+  },
   supabase: {
     redirect: false,
   },
